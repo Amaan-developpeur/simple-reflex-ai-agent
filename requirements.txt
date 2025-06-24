@@ -1,0 +1,16 @@
+# Core
+tensorflow>=2.9.0
+keras>=2.9.0
+numpy>=1.21
+pandas>=1.3
+
+# Image Processing
+opencv-python>=4.5
+matplotlib>=3.4
+
+# Progress bars, visualization
+tqdm>=4.62
+seaborn>=0.11
+
+# Jupyter usage
+ipykernel>=6.0

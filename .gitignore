@@ -1,0 +1,12 @@
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Compiled Python files
+__pycache__/
+
+# Model files
+*.keras
+*.h5
+
+# OS clutter
+.DS_Store
