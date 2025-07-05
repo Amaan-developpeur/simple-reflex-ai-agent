@@ -6,7 +6,7 @@ def image_paths(base_dir=None):
         # Go up 2 levels: agent/ → project root → parent of project
         base_dir = Path(__file__).resolve().parent.parent.parent / "split" / "val"
 
-    print(f"📂 Looking in: {base_dir}")
+    print(f"Looking in: {base_dir}")
     if not base_dir.exists():
         raise FileNotFoundError(f"❌ Directory not found: {base_dir}")
 
